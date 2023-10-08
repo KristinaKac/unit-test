@@ -1,0 +1,31 @@
+{
+  "name": "unit-test",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristinaKac/unit-test.git"
+  },
+  "author": "Kristina Kachalkova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristinaKac/unit-test/issues"
+  },
+  "homepage": "https://github.com/KristinaKac/unit-test#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "core-js": "^3.33.0",
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "jest": "^29.7.0",
+    "jest-babel": "^1.0.1"
+  }
+}
